@@ -4,7 +4,7 @@ name: Formicaio
 tagline: Il potere delle formiche
 icon: https://svgshare.com/i/1B0F.svg
 category: social
-version: "0.0.1"
+version: "0.0.2"
 port: 52101 # Published version on umbrel app store runs on port 52100
 description: >-
   Le formiche sono insetti sociali che vivono in colonie e sono
@@ -28,9 +28,9 @@ submission: https://github.com/bochaco/formicaio
 repo: https://github.com/bochaco/formicaio
 support: https://github.com/bochaco/formicaio/issues
 gallery:
-  - https://github.com/bochaco/umbrel-apps/blob/app-submission-formicaio/formicaio/1.png
-  - https://github.com/bochaco/umbrel-apps/blob/app-submission-formicaio/formicaio/2.png
-  - https://github.com/bochaco/umbrel-apps/blob/app-submission-formicaio/formicaio/3.png
+  - 1.png
+  - 2.png
+  - 3.png
 releaseNotes: >-
   This initial version lays the foundation for future development,
   with additional features to be introduced in subsequent updates.
