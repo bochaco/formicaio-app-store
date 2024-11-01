@@ -4,7 +4,7 @@ name: Formicaio
 tagline: Il potere delle formiche
 icon: https://svgshare.com/i/1B0F.svg
 category: social
-version: "0.0.10"
+version: "0.0.11"
 port: 52101 # Published version on umbrel app store runs on port 52100
 description: >-
   Le formiche sono insetti sociali che vivono in colonie e sono
