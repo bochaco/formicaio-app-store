@@ -2,7 +2,7 @@ manifestVersion: 1
 id: formicaio-apps-formicaio
 name: Formicaio
 tagline: Il potere delle formiche
-icon: https://svgshare.com/i/1B0F.svg
+icon: https://raw.githubusercontent.com/bochaco/formicaio/cc1bb961c97ea6d5042ada43f83ea1bcf4808fd4/public/formicaio.svg
 category: social
 version: "0.0.24"
 port: 52101 # Published version on umbrel app store runs on port 52100
@@ -28,9 +28,13 @@ submission: https://github.com/bochaco/formicaio
 repo: https://github.com/bochaco/formicaio
 support: https://github.com/bochaco/formicaio/issues
 gallery:
-  - 1.png
-  - 2.png
-  - 3.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/screenshot_01.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/screenshot_02.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/screenshot_03.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/screenshot_04.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/lcd_00.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/lcd_01.png
+  - https://raw.githubusercontent.com/bochaco/formicaio/refs/heads/main/img/lcd_02.png
 releaseNotes: >-
   This initial version lays the foundation for future development,
   with additional features to be introduced in subsequent updates.
