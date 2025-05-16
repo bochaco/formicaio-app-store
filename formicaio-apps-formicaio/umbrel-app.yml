@@ -4,7 +4,7 @@ name: Formicaio
 tagline: Run nodes on the Autonomi peer-to-peer (P2P) network
 icon: https://raw.githubusercontent.com/bochaco/formicaio/cc1bb961c97ea6d5042ada43f83ea1bcf4808fd4/public/formicaio.svg
 category: networking
-version: "0.5.0"
+version: "0.5.1"
 port: 52101 # Published version on umbrel app store runs on port 52100
 description: >-
   ## Simplify your decentralized experience with Formicaio
@@ -87,6 +87,28 @@ releaseNotes: >-
   This first version of the Formicaio app allows to run a few
   nodes on the Autonomi P2P network. No other features are still available
   in this first version.
+widgets:
+  - id: "formicaio-stats"
+    type: "four-stats"
+    refresh: "5s"
+    endpoint: "formicaio_proxy:52111/api/stats_widget"
+    link: ""
+    example:
+      type: "four-stats"
+      link: ""
+      items:
+        - title: "Total balance"
+          text: "1.7181"
+          subtext: ""
+        - title: "Active nodes"
+          text: "15/15"
+          subtext: ""
+        - title: "Stored records"
+          text: "69"
+          subtext: ""
+        - title: "Network size"
+          text: "3897207"
+          subtext: ""
 dependencies: []
 path: ""
 defaultUsername: ""
