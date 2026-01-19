@@ -4,7 +4,7 @@ name: Formicaio
 tagline: Run nodes on the Autonomi peer-to-peer (P2P) network
 icon: https://raw.githubusercontent.com/bochaco/formicaio/cc1bb961c97ea6d5042ada43f83ea1bcf4808fd4/public/formicaio.svg
 category: networking
-version: "0.7.1"
+version: "0.7.2"
 port: 52101 # Published version on umbrel app store runs on port 52100
 description: >-
   ## Simplify your decentralized experience with Formicaio
