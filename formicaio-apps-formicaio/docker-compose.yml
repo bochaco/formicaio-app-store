@@ -14,7 +14,7 @@ services:
       - host.docker.internal:host-gateway
     container_name: formicaio-apps-formicaio_formicaio_proxy_1
   formicaio:
-    image: bochaco/formicaio:0.8.1-native@sha256:3c63d614a33fa0d273809cbeb4eeb039ef63f1c892021a7a1f18951ff26833a2
+    image: bochaco/formicaio:0.8.2-native@sha256:f05c58916312eae5a9d0ba96b116c74d446fc250cf64e4ff30bd0aef3470d24e
     privileged: true
     restart: on-failure
     network_mode: host
